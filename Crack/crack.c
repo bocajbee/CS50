@@ -7,12 +7,14 @@
 
 // https://docs.cs50.net/2017/ap/problems/crack/crack.html
 
-/**
- * easy passwords for testing:
+/** https://cs50.stackexchange.com/questions/24856/pset2-crack-vs-pointers
+   easy passwords for testing:
+ 
    aaaaa:50XcgR31jl/4M
- * from problem set docs:
+   
+   from problem set docs:
+ 
    Z = 50R.6FuTGui8U
-   https://cs50.stackexchange.com/questions/24856/pset2-crack-vs-pointers
    anushree:50xcIMJ0y.RXo = YES
    brian:50mjprEcqC/ts = CA
    bjbrown:50GApilQSG3E2 = UPenn (takes a while)
@@ -22,8 +24,7 @@
    natmelo:50JIIyhDORqMU = nope
    rob:50JGnXUgaafgc = ROFL
    stelios:51u8F0dkeDSbY = NO
-   zamyla:50cI2vYkF0YU2 = LOL
-**/
+   zamyla:50cI2vYkF0YU2 = LOL **/
 
 // declaring char *argv[] here is telling the function to expect a char type input & a its gonna be a pointer to an array of characters (remember how these work?)
 int main(int argc, char *argv[])
